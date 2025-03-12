@@ -1,6 +1,6 @@
 <h1 align="center">Página de Receita</h1>
 
-![Capa do Projeto](../Pagina-de-receita/src/assets/.github/Cover.jpg)
+![Capa do Projeto](./src/assets/.github/Cover.jpg)
 
 **Descrição breve do projeto**:
 
