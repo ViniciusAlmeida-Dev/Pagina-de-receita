@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --background-color: #573824;
+  --surface-color: #f0e8c2;
+
+  --text-color-primary: #291b1a;
+  --text-color-secondary: #573a37;
+  --text-color-on-bg: #f0e8c2;
+}
+
+body {
+  background: url(../assets/bg-image.png) lightgray 50% / cover no-repeat;
+  font-family: "Alice", serif;
+}
+
+#Page {
+  width: 50rem;
+  margin: auto;
+  border-radius: 1.5rem;
+  background: var(--surface-color);
+  padding: 1.5rem;
+
+  img {
+    max-width: 100%;
+    border-radius: 1rem;
+  }
+
+  main {
+    padding: 0rem 1.5rem 1.5rem 1.5rem;
+
+    #About {
+      margin: 1.5rem;
+      h1 {
+        color: var(--text-color-primary);
+
+        font-family: Alice;
+        font-size: 2.5rem;
+
+        font-weight: 400;
+        line-height: 140%; /* 56px */
+      }
+
+      .info {
+        color: var(--text-color-secondary);
+        font-family: Alice;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 150%; /* 24px */
+
+        p {
+          margin: 0 0 0.75rem 0;
+        }
+      }
+    }
+
+    #Ingredientes {
+      margin: 1.5rem;
+
+      h1 {
+        margin: 0.25rem;
+        color: var(--text-color-primary);
+        font-family: Alice;
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 150%; /* 36px */
+      }
+
+      ul {
+        padding-left: 1.5rem;
+
+        li {
+          color: var(--text-color-secondary);
+          font-family: Alice;
+          font-size: 1rem;
+          font-weight: 400;
+          line-height: 150%; /* 24px */
+        }
+      }
+    }
+
+    #Modo-de-preparo {
+      margin: 1.5rem;
+
+      h1 {
+        color: var(--text-color-primary);
+        font-family: Alice;
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 150%; /* 36px */
+        margin: 0.25rem;
+      }
+
+      p {
+        color: var(--text-color-secondary);
+        font-family: Alice;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 150%; /* 24px */
+        padding-left: 0.4375rem;
+      }
+    }
+  }
+}
+
+#Creditos {
+  margin: auto;
+  padding: 0.75rem;
+
+  P {
+    text-align: center;
+    padding: 0.75rem;
+    color: var(--text-color-on-bg);
+    font-family: Alice;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    img {
+      vertical-align: middle;
+    }
+  }
+}
