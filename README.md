@@ -28,7 +28,7 @@ Esse é um dos projetos desenvolvidos em aula na formação Full-stack, um de no
 
 Se o projeto estiver hospedado online, inclua um link para visualização ao vivo:
 
-🔗 [Clique aqui para acessar o site]([https://caiovinicius-full-stack.github.io/Pagina-de-receita-Rocketseat/](https://caiovinicius-full-stack.github.io/Pagina-de-receita/))
+🔗 [Clique aqui para acessar o site](https://caiovinicius-full-stack.github.io/Pagina-de-receita/)
 
 ---
 
