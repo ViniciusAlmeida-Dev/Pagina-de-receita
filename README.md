@@ -39,3 +39,7 @@ HTML5: Estruturação do conteúdo.
 CSS3: Estilização.
 
 Git e GitHub: Controle de versão e hospedagem.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT.
